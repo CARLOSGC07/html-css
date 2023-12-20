@@ -10,6 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
             width: 600px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -17,10 +18,24 @@
             padding: 10px;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot{
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         td.num{
             text-align: right;
         }
@@ -28,6 +43,11 @@
         td.num01{
             text-align: center;
         }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
     </style>
 </head>
 <body>
@@ -44,6 +64,7 @@
     -->
 
     <table>
+        <caption>População das Unidade Federativas</caption>
         <thead>
             <tr>
                 <th>Posição</th>
@@ -191,11 +212,18 @@
         <tfoot>
             <tr>
                 <th>Toral de Habitantes</th>
-                <td></td>
+              
                 <td>203 062 512</td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aliquid minima eum praesentium? Beatae harum earum dignissimos cupiditate? Dolor perspiciatis a corrupti necessitatibus laudantium odio at exercitationem nulla. Expedita, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque exercitationem, illum eius excepturi ratione eligendi aliquid quia dolores nesciunt ex, sint minus quidem ea doloremque aspernatur. Laborum error sit expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure recusandae quo, similique cupiditate atque id qui iste ratione assumenda ullam nostrum blanditiis velit minus? Dolorum sunt a alias natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique maxime dolore mollitia! Ab laborum vero nobis iste porro iusto ad qui dolorum est sapiente cum voluptatem laudantium voluptate, minus non.</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aliquid minima eum praesentium? Beatae harum earum dignissimos cupiditate? Dolor perspiciatis a corrupti necessitatibus laudantium odio at exercitationem nulla. Expedita, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque exercitationem, illum eius excepturi ratione eligendi aliquid quia dolores nesciunt ex, sint minus quidem ea doloremque aspernatur. Laborum error sit expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure recusandae quo, similique cupiditate atque id qui iste ratione assumenda ullam nostrum blanditiis velit minus? Dolorum sunt a alias natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique maxime dolore mollitia! Ab laborum vero nobis iste porro iusto ad qui dolorum est sapiente cum voluptatem laudantium voluptate, minus non.</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aliquid minima eum praesentium? Beatae harum earum dignissimos cupiditate? Dolor perspiciatis a corrupti necessitatibus laudantium odio at exercitationem nulla. Expedita, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque exercitationem, illum eius excepturi ratione eligendi aliquid quia dolores nesciunt ex, sint minus quidem ea doloremque aspernatur. Laborum error sit expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure recusandae quo, similique cupiditate atque id qui iste ratione assumenda ullam nostrum blanditiis velit minus? Dolorum sunt a alias natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique maxime dolore mollitia! Ab laborum vero nobis iste porro iusto ad qui dolorum est sapiente cum voluptatem laudantium voluptate, minus non.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aliquid minima eum praesentium? Beatae harum earum dignissimos cupiditate? Dolor perspiciatis a corrupti necessitatibus laudantium odio at exercitationem nulla. Expedita, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque exercitationem, illum eius excepturi ratione eligendi aliquid quia dolores nesciunt ex, sint minus quidem ea doloremque aspernatur. Laborum error sit expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure recusandae quo, similique cupiditate atque id qui iste ratione assumenda ullam nostrum blanditiis velit minus? Dolorum sunt a alias natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique maxime dolore mollitia! Ab laborum vero nobis iste porro iusto ad qui dolorum est sapiente cum voluptatem laudantium voluptate, minus non.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aliquid minima eum praesentium? Beatae harum earum dignissimos cupiditate? Dolor perspiciatis a corrupti necessitatibus laudantium odio at exercitationem nulla. Expedita, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque exercitationem, illum eius excepturi ratione eligendi aliquid quia dolores nesciunt ex, sint minus quidem ea doloremque aspernatur. Laborum error sit expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, iure recusandae quo, similique cupiditate atque id qui iste ratione assumenda ullam nostrum blanditiis velit minus? Dolorum sunt a alias natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique maxime dolore mollitia! Ab laborum vero nobis iste porro iusto ad qui dolorum est sapiente cum voluptatem laudantium voluptate, minus non.</p>
 
 
 </body>
